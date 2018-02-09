@@ -178,6 +178,4 @@ which is 0. So our actual class is 0-Search and our predicted class is 0-Search 
 
 This means we have learned representation for Search class.
 
-#### Note : We are dealing only with w and y. Our aim is what combination of w will give us y. So basically we are establishing relation only between
-w and y. And more so, y is dependent on w. Vector w is unknown and y is known. We are trying to know vector w from x and y. x only facilitates in learning w.
-So whenever we say our function is Linear or Non-Linear, it should be Linear/Non-Linear in w. Or in other words, y is lineraly/non-lineraly dependent on w.
+#### Note : We are dealing only with w and y. Our aim is what combination of w will give us y. So basically we are establishing relation only betweenw and y. And more so, y is dependent on w. Vector w is unknown and y is known. We are trying to know vector w from x and y. x only facilitates in learning w. So whenever we say our function is Linear or Non-Linear, it should be Linear/Non-Linear in w. Or in other words, y is lineraly/non-lineraly dependent on w.
