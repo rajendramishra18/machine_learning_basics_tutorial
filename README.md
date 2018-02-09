@@ -66,16 +66,15 @@ is called *One hot vector*.
 
 Words|S1|S2|S3|S4
 ----|--|--|--|--
-Show|**1**|0|0|0
+Show|[1](https://placehold.it/15/f03c15/000000?text=+)|0|0|0
 me|1|0|0|0
 mails|1|1|1|0
 ABC|1|1|0|0
-Delete|0|**1**|0|0
-Trash|0|0|**1**|0
+Delete|0|[1](https://placehold.it/15/f03c15/000000?text=+)|0|0
+Trash|0|0|[1](https://placehold.it/15/f03c15/000000?text=+)|0
 PQR|0|0|1|0
-Reply|0|0|0|**1**
+Reply|0|0|0|[1](https://placehold.it/15/f03c15/000000?text=+)
 this|0|0|0|1
 email|0|0|0|1
 -|Search|Delete|Delete|Reply
  
-[#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
