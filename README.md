@@ -154,7 +154,8 @@ f10|0|0|0|1|0.1
 
 Let us see how we are going to learn the weights. 
 ** Step 1
-In step 1, we will only consider column x1, it's label and weight column.
+In step 1, we will only consider column x1, it's label and weight column.  
+
 x1|w
 --|--
 1|0.1
@@ -167,3 +168,4 @@ x1|w
 0|0.1
 0|0.1
 0|0.1
+0[Actual Class](https://placehold.it/15/f03c15/000000?text=+)|0.4[Predicted Class](https://placehold.it/15/f03c15/000000?text=+)
