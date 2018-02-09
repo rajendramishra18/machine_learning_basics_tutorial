@@ -103,6 +103,7 @@ This is exactly what a machine figures out. As we have decided to give less weig
 exactly the same. Have you realized that we donot need any information about words or sentences.
 
 feature|x1|x2|x3|x4
+----|--|--|--|--
 f1|1|0|0|0
 f2|1|0|0|0
 f3|1|1|1|0
