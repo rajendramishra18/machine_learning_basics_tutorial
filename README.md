@@ -117,3 +117,54 @@ f10|0|0|0|1
 **label**|**0**|**1**|**1**|**2**
 
 
+As we discussed, we will weigh all the features in the data and based on that we will assign class to sentences.  
+Let us introduce a new variable w, which will have weights for each feature.  
+We have total 10 features, so for each features we have corresponding weight. 
+
+feature|x1|x2|x3|x4|weight
+----|--|--|--|--|--
+f1|1|0|0|0|w1
+f2|1|0|0|0|w2
+f3|1|1|1|0|w3
+f4|1|1|0|0|w4
+f5|0|1|0|0|w5
+f6|0|0|1|0|w6
+f7|0|0|1|0|w7
+f8|0|0|0|1|w8
+f9|0|0|0|1|w9
+f10|0|0|0|1|w10
+**label**|**0**|**1**|**1**|**2**|-
+
+Now our task is to learn these weights. Lets us give each w1..10 equal weight which is **0.1**.
+
+feature|x1|x2|x3|x4|weight
+----|--|--|--|--|--
+f1|1|0|0|0|0.1
+f2|1|0|0|0|0.1
+f3|1|1|1|0|0.1
+f4|1|1|0|0|0.1
+f5|0|1|0|0|0.1
+f6|0|0|1|0|0.1
+f7|0|0|1|0|0.1
+f8|0|0|0|1|0.1
+f9|0|0|0|1|0.1
+f10|0|0|0|1|0.1
+**label**|**0**|**1**|**1**|**2**|-
+
+
+Let us see how we are going to learn the weights. 
+** Step 1
+In step 1, we will only consider column x1, it's label and weight column.
+x1|w
+--|--
+1|0.1
+1|0.1
+1|0.1
+1|0.1
+0|0.1
+0|0.1
+0|0.1
+0|0.1
+0|0.1
+0|0.1
+**0**[Actual Class](https://placehold.it/15/f03c15/000000?text=+)|**0.4[Predicted Class](https://placehold.it/15/f03c15/000000?text=+)**
