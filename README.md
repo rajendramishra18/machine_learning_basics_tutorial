@@ -96,10 +96,10 @@ So let us represent
 Table below shows how a machine sees this information. It doesn't know what a word is. It just know positions. Let's imitate a machine. Which positions do you think
  from sentence x2 and x3 will give you it's class.  
 Let's observe. From initial observations, we can figure out few things like:
-* feature F3 and F4 are available in multiple sentences of different classes. So F3 and F4 may not represent exact class.
+* feature **f3** and **f4** are available in multiple sentences of different classes. So **f3** and **f4** may not represent exact class.
 * Rest all features are present in exactly one sentence.
 
-This is exactly what a machine figures out. As we have decided to give less weight to F3 and F4 and give more weight to other features, the machine does 
+This is exactly what a machine figures out. As we have decided to give less weight to **f3** and **f4** and give more weight to other features, the machine does 
 exactly the same. Have you realized that we donot need any information about words or sentences.
 
 feature|x1|x2|x3|x4
