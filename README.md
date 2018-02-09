@@ -18,8 +18,8 @@ Reply to this email.    | Reply
 
 
 Table shown above contains a labeled dataset of  
-*few commands you send to a chat bot and 
-*action that chat bot shall perform.
+* few commands you send to a chat bot and 
+* action that chat bot shall perform.
 
 **The Learning Problem** simply says that, let me give you small set of utterances and their corresponding commands that those utterance imply. 
 After seeing these set of utterances, if I give you some other utterance like *"Get me mails from XYZ."*, will you be able to tell whether this utterance
