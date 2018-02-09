@@ -9,7 +9,7 @@ This repo contains basic tutorials for machine learning.
 #### Any learning mechanism is either supervised or unsupervised. It's exatly same as **School Learning vs Self Learning**.
 #### In this tutorial, we have a dataset where we have sentences and for each sentence we have their corresponding class label.
 #### Utterance | Label
-#### __________|___________
+#### ----------|----------
 #### Show me mails from ABC. | Search
 #### Delete mails from ABC.  | Delete
 #### Trash mails from PQR.   | Delete
