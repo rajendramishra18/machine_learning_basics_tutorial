@@ -42,7 +42,7 @@ For example,
 
 A collection or set of features, forms **Feature Set** in our case.  
 
-Features:
+**Features:**
 
 Word|S1|S2|S3|S4
 ----|--|--|--|--
@@ -56,4 +56,24 @@ PQR|0|0|1|0
 Reply|0|0|0|1
 this|0|0|0|1
 email|0|0|0|1
-|Search|Delete|Delete|Reply
+-|Search|Delete|Delete|Reply
+
+Above table shows set of features for out usecase. As discussed earlier, first column in this table is set of words. We call it **Vocabulary**. Other 
+four columns contain sentences S1, S2, S3 and S4. As you can see, sentence column contains values 1 or 0. These values represent which words are present 
+in which sentence. This representation of words in a sentence or document is refered as **"One Hot Vector Reprentation"**.  
+So the words in our vocabulary, represent *features*, vocabulary represents *feature set* and the 0/1 values for each sentence, which represents a vector 
+is called *One hot vector*.
+
+Words|S1|S2|S3|S4
+Show|**1**|0|0|0
+me|1|0|0|0
+mails|1|1|1|0
+ABC|1|1|0|0
+Delete|0|**1**|0|0
+Trash|0|0|**1**|0
+PQR|0|0|1|0
+Reply|0|0|0|**1**
+this|0|0|0|1
+email|0|0|0|1
+-|Search|Delete|Delete|Reply
+ 
