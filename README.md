@@ -78,3 +78,41 @@ this|0|0|0|1
 email|0|0|0|1
 -|Search|Delete|Delete|Reply
  
+ 
+So as shown in the table above, we have highlighted few words. These words, if present in a sentence, will tell us which class they belong to from Search/
+Delete/Reply.  
+
+This is out inference based on the knowledge we have about meaning of words. We know meaning, Machines don't. We have to teach them meaning. Teaching Machines!
+How?
+
+Ok, before I answer that, just imagine I can read words and relate its meaning. How can a machine do that? How will machine see words? How will it 
+interpret meaning from it?
+
+So let us represent
+* Search - 0
+* Delete - 1
+* Reply - 2 
+
+Table below shows how a machine sees this information. It doesn't know what a word is. It just know positions. Let's imitate a machine. Which positions do you think
+ from sentence x2 and x3 will give you it's class.  
+Let's observe. From initial observations, we can figure out few things like:
+* feature F3 and F4 are available in multiple sentences of different classes. So F3 and F4 may not represent exact class.
+* Rest all features are present in exactly one sentence.
+
+This is exactly what a machine figures out. As we have decided to give less weight to F3 and F4 and give more weight to other features, the machine does 
+exactly the same. Have you realized that we donot need any information about words or sentences.
+
+feature|x1|x2|x3|x4
+f1|1|0|0|0
+f2|1|0|0|0
+f3|1|1|1|0
+f4|1|1|0|0
+f5|0|1|0|0
+f6|0|0|1|0
+f7|0|0|1|0
+f8|0|0|0|1
+f9|0|0|0|1
+f10|0|0|0|1
+**label**|**0**|**1**|**1**|**2**
+
+
