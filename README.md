@@ -167,4 +167,3 @@ x1|w
 0|0.1
 0|0.1
 0|0.1
-0[Actual Class](https://placehold.it/15/f03c15/000000?text=+)|0.4[Predicted Class](https://placehold.it/15/f03c15/000000?text=+)
