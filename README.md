@@ -171,13 +171,13 @@ x1|w
 0 [(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|0.4[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)  
 
 As we can see, in the table above, we have x1, w and label. Our Actual label is 0 i.e. Search class. We should sum the products of fi and wi. i.e. 
-f1*w1+f2*w2+f3*w3+f4*w4+ ... +f10*w10. Whatever result we get, take floor value i.e. if value is 0.6, take it as 0.
+f1.w1+f2.w2+f3.w3+f4.w4+ ... +f10.w10. Whatever result we get, take floor value i.e. if value is 0.6, take it as 0.
 
 The function that we have considered above is our learning function. As you can see, the value we have obtained after sum of product is 0.4. Take floor value,
 which is 0. So our actual class is 0-Search and our predicted class is 0-Search as well.
 
 This means we have learned representation for Search class.
 
-####Note : We are dealing only with w and y. Our aim is what combination of w will give us y. So basically we are establishing relation only between
+#### Note : We are dealing only with w and y. Our aim is what combination of w will give us y. So basically we are establishing relation only between
 w and y. And more so, y is dependent on w. Vector w is unknown and y is known. We are trying to know vector w from x and y. x only facilitates in learning w.
 So whenever we say our function is Linear or Non-Linear, it should be Linear/Non-Linear in w. Or in other words, y is lineraly/non-lineraly dependent on w.
