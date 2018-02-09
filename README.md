@@ -78,4 +78,4 @@ this|0|0|0|1
 email|0|0|0|1
 -|Search|Delete|Delete|Reply
  
-[#f03c15] `#f03c15`
+[#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
