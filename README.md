@@ -17,7 +17,7 @@ Trash mails from PQR.   | Delete
 Reply to this email.    | Reply
 
 
-Table shown above contains a labeled dataset of 
+Table shown above contains a labeled dataset of  
 *few commands you send to a chat bot and 
 *action that chat bot shall perform.
 
