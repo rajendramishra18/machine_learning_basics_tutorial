@@ -28,10 +28,10 @@ implies *Search/ Delete/ Reply*.
 Next point I would like to talk about, is "**Feature Set**". What is Feature Set?  
 * Different domains have different kind of dataset.
 * For example:
- * In Image Processsing, we have to deal with images
- * In Speech Processing, we have speech signals
- * In Music Analysis, we have music files
- * In Text Analysis, we have text like utterances in this toy example
+	* In Image Processsing, we have to deal with images
+	* In Speech Processing, we have speech signals
+	* In Music Analysis, we have music files
+	* In Text Analysis, we have text like utterances in this toy example
  
 Given these different domains, can we represent these data in some format that machines can understand? So to bridge the gap between 
 what we understand about domain and a machine shall percieve it, we need some features to represent this data. This is where Features come into picture.  
