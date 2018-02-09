@@ -65,6 +65,7 @@ So the words in our vocabulary, represent *features*, vocabulary represents *fea
 is called *One hot vector*.
 
 Words|S1|S2|S3|S4
+----|--|--|--|--
 Show|**1**|0|0|0
 me|1|0|0|0
 mails|1|1|1|0
