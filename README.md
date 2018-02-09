@@ -42,3 +42,18 @@ For example,
 
 A collection or set of features, forms **Feature Set** in our case.  
 
+Features:
+
+Word|S1|S2|S3|S4
+----|--|--|--|--
+Show|1|0|0|0
+me|1|0|0|0
+mails|1|1|1|0
+ABC|1|1|0|0
+Delete|0|1|0|0
+Trash|0|0|1|0
+PQR|0|0|1|0
+Reply|0|0|0|1
+this|0|0|0|1
+email|0|0|0|1
+|Search|Delete|Delete|Reply
