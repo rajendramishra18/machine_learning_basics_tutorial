@@ -232,7 +232,8 @@ x3|w
 1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|0.4[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)
 
 Again there is mismatch. We have predicted 0.4 ~ 0 (floor value) and 1 as actual value. We need to adjust weights again. Let's adjust weights.  
-S3|w
+
+x3|w
 --|--
 0|0.1
 0|0.1
@@ -250,7 +251,8 @@ Now as we can see, we have 1.54 ~ 1 [Floor Value]
 
 So like the steps taken above, we will iterate for many iterations and stop when we see no further improvizations needed.
 
-**Final Learned weights** 
+**Final Learned weights**  
+
 w|--
 --|--
 w1|0.1
