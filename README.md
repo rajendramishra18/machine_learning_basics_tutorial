@@ -196,7 +196,7 @@ f10|0|0.1
 
 However, as shown in the above table, weights donot give us right result for class 1-Delete. if we place values of f and w in the above equation, we will 
 get 0.3 i.e. 0 [floor value] as predicted value and we have 1 as actual class.  
-So, we will have to adjust weights corresponding to features f3, f4 and f5.
+So, we will have to adjust weights corresponding to features f3, f4 and f5.  
 
 x2|w
 --|--
@@ -215,7 +215,7 @@ x2|w
 After adjusting the weights and placing f and w in equation above, we get 1.2 which is 1 [floor value]. Our actual class is 1-Delete and predicted class
 is also 1.  
 
-Now, let us check x3.
+Now, let us check x3.  
 x3|w
 --|--
 0|0.1
@@ -230,7 +230,7 @@ x3|w
 0|0.1
 1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|0.4[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)
 
-Again there is mismatch. We have predicted 0.4 ~ 0 [floor value] and 1 as actual value. We need to adjust weights again. Let's adjust weights.
+Again there is mismatch. We have predicted 0.4 ~ 0 [floor value] and 1 as actual value. We need to adjust weights again. Let's adjust weights.  
 S3|w
 --|--
 0|0.1
@@ -249,7 +249,7 @@ Now as we can see, we have 1.54 ~ 1 [Floor Value]
 
 So like the steps taken above, we will iterate for many iterations and stop when we see no further improvizations needed.
 
-**Final Learned weights**  
+**Final Learned weights**    
 w|--
 --|--
 w1|0.1
