@@ -265,5 +265,38 @@ w7|0.4
 w8|0.9
 w9|0.6
 w10|0.8
+  
+So, we already have  a flavour of what happens when we refer **Machine Learning**. What we have is w - a set of learned weights. Now, we will evelaute
+this *Learning Model*.  
 
+**Sentence : Show me mails from PQR**  
 
+|Sentence|w
+--|--|--
+Show|1|0.1
+me|1|0.1
+mails|1|0.3
+ABC|0|0.2
+Delete|0|0.8
+Trash|0|0.84
+PQR|0|0.4
+Reply|1|0.9
+this|0|0.6
+email|0|0.8
+Class|0|0.9
+
+**Sentence : Delete email from ABC**  
+
+|Sentence|w
+--|--|--
+Show|0|0.1
+me|0|0.1
+mails|0|0.3
+ABC|1|0.2
+Delete|1|0.8
+Trash|0|0.84
+PQR|0|0.4
+Reply|0|0.9
+this|0|0.6
+email|1|0.8
+Class|1|1.8
