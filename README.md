@@ -179,3 +179,88 @@ which is 0. So our actual class is 0-Search and our predicted class is 0-Search 
 This means we have learned representation for Search class.
 
 #### Note : We are dealing only with w and y. Our aim is what combination of w will give us y. So basically we are establishing relation only betweenw and y. And more so, y is dependent on w. Vector w is unknown and y is known. We are trying to know vector w from x and y. x only facilitates in learning w. So whenever we say our function is Linear or Non-Linear, it should be Linear/Non-Linear in w. Or in other words, y is lineraly/non-lineraly dependent on w.
+
+f1|x2|w
+--|--|--
+f1|0|0.1
+f2|0|0.1
+f3|1|0.1
+f4|1|0.1
+f5|1|0.1
+f6|0|0.1
+f7|0|0.1
+f8|0|0.1
+f9|0|0.1
+f10|0|0.1
+1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|0.3[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)  
+
+However, as shown in the above table, weights donot give us right result for class 1-Delete. if we place values of f and w in the above equation, we will 
+get 0.3 i.e. 0 [floor value] as predicted value and we have 1 as actual class.  
+So, we will have to adjust weights corresponding to features f3, f4 and f5.
+
+x2|w
+--|--
+0|0.1
+0|0.1
+1|0.2
+1|0.2
+1|0.8
+0|0.1
+0|0.1
+0|0.1
+0|0.1
+0|0.1
+1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|1.2[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)
+
+After adjusting the weights and placing f and w in equation above, we get 1.2 which is 1 [floor value]. Our actual class is 1-Delete and predicted class
+is also 1.  
+
+Now, let us check x3.
+x3|w
+--|--
+0|0.1
+0|0.1
+1|0.2
+0|0.2
+0|0.8
+1|0.1
+1|0.1
+0|0.1
+0|0.1
+0|0.1
+1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|0.4[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)
+
+Again there is mismatch. We have predicted 0.4 ~ 0 [floor value] and 1 as actual value. We need to adjust weights again. Let's adjust weights.
+S3|w
+--|--
+0|0.1
+0|0.1
+1|0.3
+0|0.2
+0|0.8
+1|0.84
+1|0.4
+0|0.1
+0|0.1
+0|0.1
+1[(Actual Class)](https://placehold.it/15/f03c15/000000?text=+)|1.54[(Predicted Class)](https://placehold.it/15/f03c15/000000?text=+)  
+
+Now as we can see, we have 1.54 ~ 1 [Floor Value]
+
+So like the steps taken above, we will iterate for many iterations and stop when we see no further improvizations needed.
+
+**Final Learned weights**  
+w|--
+--|--
+w1|0.1
+w2|0.1
+w3|0.3
+w4|0.2
+w5|0.8
+w6|0.84
+w7|0.4
+w8|0.9
+w9|0.6
+w10|0.8
+
+
