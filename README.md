@@ -215,7 +215,8 @@ x2|w
 After adjusting the weights and placing f and w in equation above, we get 1.2 which is 1 (floor value). Our actual class is 1-Delete and predicted class
 is also 1.  
 
-Now, let us check x3.  
+Now, let us check x3. 
+ 
 x3|w
 --|--
 0|0.1
@@ -249,7 +250,7 @@ Now as we can see, we have 1.54 ~ 1 [Floor Value]
 
 So like the steps taken above, we will iterate for many iterations and stop when we see no further improvizations needed.
 
-**Final Learned weights**    
+**Final Learned weights** 
 w|--
 --|--
 w1|0.1
