@@ -271,7 +271,7 @@ this *Learning Model*.
 
 **Sentence : Show me mails from PQR**  
 
-|Sentence|w
+-|Sentence|w
 --|--|--
 Show|1|0.1
 me|1|0.1
@@ -283,11 +283,12 @@ PQR|0|0.4
 Reply|1|0.9
 this|0|0.6
 email|0|0.8
-Class|0|0.9
+Class|0|0.9  
+
 
 **Sentence : Delete email from ABC**  
 
-|Sentence|w
+-|Sentence|w
 --|--|--
 Show|0|0.1
 me|0|0.1
@@ -299,4 +300,5 @@ PQR|0|0.4
 Reply|0|0.9
 this|0|0.6
 email|1|0.8
-Class|1|1.8
+Class|1|1.8  
+
