@@ -283,7 +283,7 @@ PQR|0|0.4
 Reply|1|0.9
 this|0|0.6
 email|0|0.8
-Class|0|0.9  
+[Class](https://placehold.it/15/f03c15/000000?text=+)|[0](https://placehold.it/15/f03c15/000000?text=+)|[0.9](https://placehold.it/15/f03c15/000000?text=+)  
 
 
 **Sentence : Delete email from ABC**  
@@ -300,5 +300,5 @@ PQR|0|0.4
 Reply|0|0.9
 this|0|0.6
 email|1|0.8
-Class|1|1.8  
+[Class](https://placehold.it/15/f03c15/000000?text=+)|[1](https://placehold.it/15/f03c15/000000?text=+)|[1.8](https://placehold.it/15/f03c15/000000?text=+)  
 
